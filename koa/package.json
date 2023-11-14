@@ -1,0 +1,21 @@
+{
+  "name": "koa",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun --hot run index.ts"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.11",
+    "@types/koa-router": "^7.4.7",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.1"
+  }
+}
